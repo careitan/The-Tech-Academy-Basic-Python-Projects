@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f0deb31-2472-4ae9-8027-28e277bf17cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Budget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nice_or_Mean_Tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myQuiz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_tutorial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nice_or_Mean_Tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nice_or_Mean_Tutorial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nice_or_Mean_Tutorial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="145">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -49,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -102,8 +99,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python_tutorial">
-    <configuration name="TryThisOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Nice_or_Mean_Tutorial">
+    <configuration name="Nice_or_Mean_Tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PracticeWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TryThisOut.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nice_or_Mean_Tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Nice_or_Mean_Tutorial" />
         <item itemvalue="Python.python_tutorial" />
         <item itemvalue="Python.myQuiz" />
         <item itemvalue="Python.modulesImport" />
         <item itemvalue="Python.testCode" />
-        <item itemvalue="Python.TryThisOut" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +240,12 @@
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="720" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.2625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.18" />
       <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" weight="0.25416666" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,9 +283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules.py" />
     <entry file="file://$PROJECT_DIR$/ourModule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -326,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nice_or_Mean_Tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="145">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
