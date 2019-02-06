@@ -1,7 +1,6 @@
 from os import listdir
 from os.path import isfile, join, getmtime
 import time
-import datetime
 
 def getTxtFiles():
     searchDir = 'C:\\A\\'
