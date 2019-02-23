@@ -1,6 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import *
+from tkinter import filedialog
 
 # Be sure to import other component files
 import FetchDirectory_main
@@ -16,3 +17,15 @@ def center_window(self, w, h): # pass in the Tkinter frame (maaster) reference a
     centerGeo = self.master.geometry('{}x{}+{}+{}'.format(w,h,x,y))
     return centerGeo
 
+def get_directorypath(self):
+    # get path
+    options = {}
+    options['initialdir'] = None
+    options['title'] = None
+    options['mustexist'] = False
+    var_path = filedialog.askdirectory(**options)
+    if var_path == "":
+        return None
+    else:
+        self.lbl_Path2.config(text=var_path)
+        return var_path

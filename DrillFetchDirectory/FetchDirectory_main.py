@@ -21,8 +21,12 @@ class ParentWindow(Frame):
         self.master = master
 
         # Use a method to center the window on the screen
-        FetchDirectory_func.center_window(self, 400, 100)
+        FetchDirectory_func.center_window(self, 600, 100)
         self.master.title("Ask Directory")
+
+        # load in the OUT widgets from a separate module,
+        # keeping your code compartmentalized and clutter free
+        FetchDirectory_gui.load_gui(self)
 
 if __name__ == "__main__":
     root = tk.Tk()
