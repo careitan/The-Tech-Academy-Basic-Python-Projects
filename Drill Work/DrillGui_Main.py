@@ -9,7 +9,7 @@ from tkinter import *
 import tkinter as tk
 
 # Be sure to import other component files
-import DrillGui_Lsyout
+import DrillGui_Layout
 
 # Frame is the Tkinter frame class that our own class will inherit from
 class ParentWindow(Frame):
@@ -18,15 +18,19 @@ class ParentWindow(Frame):
 
         # define or master frame configuration
         self.master = master
-        self.master.minsize(200,300) # (Height, Width)
-        self.master.maxsize(500, 700)
+        # self.master.minsize(100, 300) # (Height, Width)
+        # self.master.maxsize(300, 900)
 
         # Use a method to center the window on the screen
-        DrillGui_Layout.center_window(self,200,300)
+        DrillGui_Layout.center_window(self, 500, 200)
+        self.master.title("Check files")
+
+        # load in the OUT widgets from a separate module,
+        # keeping your code compartmentalized and clutter free
+        DrillGui_Layout.load_gui(self)
 
 
-
-if __init__ == "__main__":
+if __name__ == "__main__":
     root = tk.Tk()
     App = ParentWindow(root)
     root.mainloop()
