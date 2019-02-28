@@ -27,5 +27,16 @@ def get_directorypath(self):
     if var_path == "":
         return None
     else:
-        self.lbl_Path2.config(text=var_path)
         return var_path
+
+def get_sourcepath(self):
+    var_string = str(get_directorypath(self))
+    if var_string != None:
+        self.txt_path1.delete(0, END)
+        self.txt_path1.insert(0, var_string)
+
+def get_targetpath(self):
+    var_string = str(get_directorypath(self))
+    if var_string != None:
+        self.txt_path2.delete(0, END)
+        self.txt_path2.insert(0, var_string)

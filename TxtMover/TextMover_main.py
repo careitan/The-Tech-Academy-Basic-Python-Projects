@@ -23,7 +23,7 @@ class ParentWindow(Frame):
         self.master = master
 
         # Use a method to center the window on the screen
-        TextMover_func.center_window(self, 600, 100)
+        TextMover_func.center_window(self, 650, 200)
         self.master.title("Move TXT Files")
 
         # load in the OUT widgets from a separate module,
