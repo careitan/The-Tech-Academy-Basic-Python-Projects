@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+TxtMover/TXTMove.db
+TxtMover/.idea/workspace.xml
+TxtMover/.idea/workspace.xml
