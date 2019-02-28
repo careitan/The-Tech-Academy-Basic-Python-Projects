@@ -25,7 +25,7 @@ def load_gui(self):
 
     # Labels
     self.lbl_spacer = tk.Label(self.master,text='')
-    self.lbl_spacer.grid(row=3,column=0)
+    self.lbl_spacer.grid(row=3,column=0, columnspan=3)
 
     # Initalize Database action
     TextMover_func.initializeDB()

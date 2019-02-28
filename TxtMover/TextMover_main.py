@@ -16,8 +16,8 @@ import TextMover_func
 
 # Frame is the Tkinter base class object
 class ParentWindow(Frame):
-    def __init__(self,master,*args,**kwargs):
-        Frame.__init__(self,master,*args,**kwargs)
+    def __init__(self, master, *args, **kwargs):
+        Frame.__init__(self, master, *args, **kwargs)
 
         # define or master frame configuration
         self.master = master
